@@ -7,3 +7,5 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Product.create!(name: "Apple iPhone", price: 999_99)
+Product.create!(name: "Samsung Galaxy", price: 899_99)
